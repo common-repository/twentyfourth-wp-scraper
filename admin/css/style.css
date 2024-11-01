@@ -1,0 +1,71 @@
+.sss-client .card {
+    padding: 0px;
+    width: 98%;
+}
+
+.card {
+    padding: 0px;
+    min-width: 100% !important;
+}
+
+@media screen and (min-width: 992px) {
+    .wp-scraper--container {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wp-scraper--container {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wp-scraper--header #blurp {
+        display: none;
+    }
+}
+
+.wp-scraper--header {
+    background: #3d3f4b;
+    color: #ffffffeb;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    height: 46px;
+    position: fixed;
+    width: 100%;
+    top: 31px;
+    z-index: 1001;
+}
+
+#wpbody-content {
+    padding-top: 31px;
+}
+
+.sss-client {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* 
+ * Fullwidth, ovverides WP's style which is `padding-left: 20px;` 
+ */
+#wpcontent {
+    padding-left: 0px;
+}
+
+li.nav-item a:focus {
+    box-shadow: none;
+}
+
+.tab-pane {
+    padding-top: 0 !important;
+}
+
+.vgt-wrap__footer .footer__row-count__select {
+    width: 35px;
+}
